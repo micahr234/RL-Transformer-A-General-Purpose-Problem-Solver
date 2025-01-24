@@ -21,7 +21,6 @@ These behaviors demonstrate that an RL-trained transformer can iteratively impro
 ## Repository Structure
 
 - `code/`: Contains the implementation of the ICRL training and evaluation procedures.
-- `data/`: Scripts for data generation and preprocessing.
 - `README.md`: Project overview and instructions.
 - `LICENSE`: License information.
 
@@ -40,13 +39,13 @@ These behaviors demonstrate that an RL-trained transformer can iteratively impro
 
 Fine-tune the pre-trained transformer with:
 
-Train.ipynb
+Train.ipynb *make sure to add you huggingface username where appropriate*
 
 **Evaluation:**
 
 Evaluate the trained model on new environments:
 
-Eval.ipynb
+Eval.ipynb *make sure to add you huggingface username where appropriate*
 
 ## Results
 
