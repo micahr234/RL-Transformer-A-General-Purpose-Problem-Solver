@@ -6,9 +6,8 @@ This repository contains the code and experiments for our paper:
 
 In this work, we demonstrate that fine-tuning a pre-trained transformer with reinforcement learning enables it to function as a general-purpose problem solver. The model develops the ability to solve problems it has never encountered before—an emergent ability called **In-Context Reinforcement Learning (ICRL)**.
 
-![1](https://github.com/user-attachments/assets/1149bcde-7c2f-4023-90e3-3b5fb5e2cb55)
-![2](https://github.com/user-attachments/assets/5266fe98-74ac-4ca1-98e1-5437f5ac0861)
-![3](https://github.com/user-attachments/assets/3359f7ab-34de-4755-b38f-e292cd5edc24)
+<img src="https://github.com/user-attachments/assets/1149bcde-7c2f-4023-90e3-3b5fb5e2cb55" width="200"/>
+<img src="https://github.com/user-attachments/assets/5266fe98-74ac-4ca1-98e1-5437f5ac0861" width="200"/>
 <img src="https://github.com/user-attachments/assets/3359f7ab-34de-4755-b38f-e292cd5edc24" width="200"/>
 
 In the plots above ICRL-trained Llama 3.1 learns to solve an unseen Frozen
