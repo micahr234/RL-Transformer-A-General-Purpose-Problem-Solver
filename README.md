@@ -75,9 +75,4 @@ For any questions or issues, please open an issue on this repository or contact 
 - Micah Rentschler: [mrentschler@tntech.edu](mailto:mrentschler@tntech.edu)
 - Jesse Roberts: [jroberts@tntech.edu](mailto:jroberts@tntech.edu)
 
-## Dataset can be found at
-
-https://huggingface.co/datasets/micahr234/FrozenLakeNotSlipperyPrepared20eto40ecombineto4096
-https://huggingface.co/datasets/micahr234/FrozenLakeNotSlipperyPrepared20eto40ecombineto4096low
-https://huggingface.co/datasets/micahr234/FrozenLakeNotSlipperyPrepared20eto40ecombineto4096hi
 
