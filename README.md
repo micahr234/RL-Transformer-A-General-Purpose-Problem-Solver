@@ -6,10 +6,9 @@ What if artificial intelligence could not only solve problems for which it was t
 <img src="https://github.com/user-attachments/assets/5266fe98-74ac-4ca1-98e1-5437f5ac0861" width="200"/>
 <img src="https://github.com/user-attachments/assets/3359f7ab-34de-4755-b38f-e292cd5edc24" width="200"/>
 
-In the plots above ICRL-trained Llama 3.1 learns to solve an unseen Frozen
-Lake environment. The trajectories in early, mid, and late
-interactions show solution refinement. Mistakes in early inference
-(e.g., falling into holes) disappear with experience in late inference.
+In the plots above ICRL-trained Llama 3.1 learns to solve an unseen Frozen Lake environment. The trajectories in early, mid, and late interactions show solution refinement. Mistakes in early inference (e.g., falling into holes) disappear with experience in late inference.
+
+This repository contains the code and experiments for our paper: **RL + Transformer = A General-Purpose Problem Solver**
 
 ## Overview
 
@@ -20,8 +19,6 @@ Our experiments show that an RL-trained transformer:
 - Exhibits robustness to the quality of its training data.
 - Seamlessly stitches together behaviors from its context.
 - Adapts to non-stationary environments.
-
-These behaviors demonstrate that an RL-trained transformer can iteratively improve upon its own solutions, making it an excellent general-purpose problem solver.
 
 
 ## Repository Structure
