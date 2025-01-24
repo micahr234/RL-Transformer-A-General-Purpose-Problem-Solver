@@ -6,6 +6,12 @@ This repository contains the code and experiments for our paper:
 
 In this work, we demonstrate that fine-tuning a pre-trained transformer with reinforcement learning enables it to function as a general-purpose problem solver. The model develops the ability to solve problems it has never encountered before—an emergent ability called **In-Context Reinforcement Learning (ICRL)**.
 
+![1](https://github.com/user-attachments/assets/1149bcde-7c2f-4023-90e3-3b5fb5e2cb55)
+![2](https://github.com/user-attachments/assets/5266fe98-74ac-4ca1-98e1-5437f5ac0861)
+![3](https://github.com/user-attachments/assets/3359f7ab-34de-4755-b38f-e292cd5edc24)
+
+
+
 ## Overview
 
 Our experiments show that an RL-trained transformer:
@@ -18,13 +24,16 @@ Our experiments show that an RL-trained transformer:
 
 These behaviors demonstrate that an RL-trained transformer can iteratively improve upon its own solutions, making it an excellent general-purpose problem solver.
 
+
 ## Repository Structure
 
 - `code/`: Contains the implementation of the ICRL training and evaluation procedures.
 - `README.md`: Project overview and instructions.
 - `LICENSE`: License information.
 
+
 ## Getting Started
+
 
 ### Prerequisites
 
@@ -33,7 +42,9 @@ These behaviors demonstrate that an RL-trained transformer can iteratively impro
 - Hugging Face Transformers
 - Gymnasium (for environment simulations)
 
+
 ### Running Experiments
+
 
 **Training the Model:**
 
@@ -41,26 +52,17 @@ Fine-tune the pre-trained transformer with:
 
 Train.ipynb *make sure to add you huggingface username where appropriate*
 
+
 **Evaluation:**
 
 Evaluate the trained model on new environments:
 
 Eval.ipynb *make sure to add you huggingface username where appropriate*
 
-## Results
-
-Our experiments demonstrate the capabilities of the ICRL-trained transformer across various tasks, including:
-
-- Solving unseen in-distribution and out-of-distribution examples.
-- In-context behavior stitching to combine learned skills.
-- Robustness to low-quality training data.
-- Adaptation to non-stationary environments.
-
-For detailed results and discussion, please refer to the `results/` directory and the paper.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU V3 License - see the [LICENSE](LICENSE) file for details.
 
 
 ## Acknowledgments
