@@ -1,10 +1,6 @@
 # RL + Transformer = A General-Purpose Problem Solver
 
-This repository contains the code and experiments for our paper:
-
-**RL + Transformer = A General-Purpose Problem Solver**
-
-In this work, we demonstrate that fine-tuning a pre-trained transformer with reinforcement learning enables it to function as a general-purpose problem solver. The model develops the ability to solve problems it has never encountered before—an emergent ability called **In-Context Reinforcement Learning (ICRL)**.
+What if artificial intelligence could not only solve problems for which it was trained but also learn to teach itself to solve new problems (i.e., meta-learn)? In this study, we demonstrate that a pre-trained transformer fine-tuned with reinforcement learning over multiple episodes develops the ability to solve problems that it has never encountered before—an emergent ability called In-Context Reinforcement Learning (ICRL). This powerful meta-learner not only excels in solving unseen in-distribution environments with remarkable sample efficiency, but also shows strong performance in out-of-distribution environments. In addition, we show that it exhibits robustness to the quality of its training data, seamlessly stitches together behaviors from its context, and adapts to non-stationary environments. These behaviors demonstrate that an RL-trained transformer can iteratively improve upon its own solutions, making it an excellent general-purpose problem solver.
 
 <img src="https://github.com/user-attachments/assets/1149bcde-7c2f-4023-90e3-3b5fb5e2cb55" width="200"/>
 <img src="https://github.com/user-attachments/assets/5266fe98-74ac-4ca1-98e1-5437f5ac0861" width="200"/>
