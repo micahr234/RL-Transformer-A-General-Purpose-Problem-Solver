@@ -95,19 +95,6 @@ Our experiments demonstrate the capabilities of the ICRL-trained transformer acr
 
 For detailed results and discussion, please refer to the `results/` directory and the paper.
 
-## Citation
-
-If you find this work useful, please cite our paper:
-
-```bibtex
-@article{rentschler2025icrl,
-  title={RL + Transformer = A General-Purpose Problem Solver},
-  author={Rentschler, Micah and Roberts, Jesse},
-  journal={Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)},
-  year={2025}
-}
-```
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
