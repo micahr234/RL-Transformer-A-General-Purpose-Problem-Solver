@@ -26,7 +26,8 @@ These behaviors demonstrate that an RL-trained transformer can iteratively impro
 
 ## Repository Structure
 
-- `code/`: Contains the implementation of the ICRL training and evaluation procedures.
+- `Train.ipynb`: Contains the implementation to ICRL train Llama.
+- `Eval.ipynb`: Contains the implementation evaluate a trained model on new environments.
 - `README.md`: Project overview and instructions.
 - `LICENSE`: License information.
 
@@ -45,18 +46,14 @@ These behaviors demonstrate that an RL-trained transformer can iteratively impro
 ### Running Experiments
 
 
-**Training the Model:**
-
 Fine-tune the pre-trained transformer with:
 
-Train.ipynb *make sure to add you huggingface username where appropriate*
+Train.ipynb - *make sure to add you huggingface username where appropriate*
 
-
-**Evaluation:**
 
 Evaluate the trained model on new environments:
 
-Eval.ipynb *make sure to add you huggingface username where appropriate*
+Eval.ipynb - *make sure to add you huggingface username where appropriate*
 
 
 ## License
