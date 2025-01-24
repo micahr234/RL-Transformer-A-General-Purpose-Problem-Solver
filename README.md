@@ -22,7 +22,6 @@ These behaviors demonstrate that an RL-trained transformer can iteratively impro
 
 - `code/`: Contains the implementation of the ICRL training and evaluation procedures.
 - `data/`: Scripts for data generation and preprocessing.
-- `models/`: Code related to model architecture and fine-tuning.
 - `README.md`: Project overview and instructions.
 - `LICENSE`: License information.
 
@@ -34,29 +33,6 @@ These behaviors demonstrate that an RL-trained transformer can iteratively impro
 - PyTorch
 - Hugging Face Transformers
 - Gymnasium (for environment simulations)
-- Additional dependencies listed in `requirements.txt`
-
-### Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your_username/icrl-transformer.git
-   cd icrl-transformer
-   ```
-
-2. **Create a virtual environment and activate it:**
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-
-3. **Install the required packages:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ### Running Experiments
 
@@ -64,25 +40,13 @@ These behaviors demonstrate that an RL-trained transformer can iteratively impro
 
 Fine-tune the pre-trained transformer with:
 
-```bash
-python code/train_icrl.py --config configs/train_config.yaml
-```
+Train.ipynb
 
 **Evaluation:**
 
 Evaluate the trained model on new environments:
 
-```bash
-python code/evaluate_icrl.py --config configs/eval_config.yaml
-```
-
-**Plotting Results:**
-
-Generate plots from the results:
-
-```bash
-python experiments/plot_results.py
-```
+Eval.ipynb
 
 ## Results
 
